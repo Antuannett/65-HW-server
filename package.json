@@ -1,0 +1,15 @@
+{
+  "name": "homework2",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start:hello": "node src/server.js",
+    "start:api": "node src/api.js"
+  },
+  "private": true,
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

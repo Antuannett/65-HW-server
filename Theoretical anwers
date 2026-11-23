@@ -1,0 +1,24 @@
+1. What is the difference between a path and a query parameter?
+
+The path identifies the resource or endpoint the client wants to access,
+while query parameters provide additional information about the request.
+In other words, the path tells the server what is being requested,
+and query parameters can specify or modify that request.
+
+2. How does the server receive information about the request?
+
+The server receives information through the `request` object passed to the callback function.
+This object contains information such as the requested URL, HTTP method and headers.
+
+3. JSON vs plain text
+
+JSON is a text-based format used to represent structured data.
+Unlike plain text, it follows specific syntax rules and can be easily converted into a JavaScript object.
+It is widely used for communication between applications.
+
+4. What exactly do HTTP status codes mean?
+
+An HTTP status code is a three-digit number in the server's response
+that indicates the result of handling an HTTP request.
+For example, 200 means the request was successful, 404 means the requested resource was not found,
+and 405 means the HTTP method is not allowed for that resource.
